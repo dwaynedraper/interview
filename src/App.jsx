@@ -1,5 +1,6 @@
 import React from "react";
 import Button from '@material-ui/core/Button';
+import TypeAhead from './TypeAhead.jsx';
 
 class App extends React.Component {
   render() {
@@ -7,7 +8,7 @@ class App extends React.Component {
     return (
       <React.Fragment>
         <h1>Hello {name}</h1>
-        <Button variant="contained">Material UI connected and working</Button>
+        <TypeAhead />
       </React.Fragment>
     );
   }
