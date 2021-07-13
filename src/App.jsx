@@ -1,6 +1,7 @@
 import React from "react";
 import Button from '@material-ui/core/Button';
 import TypeAhead from './TypeAhead.jsx';
+import './App.css'
 
 class App extends React.Component {
   render() {

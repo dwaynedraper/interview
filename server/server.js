@@ -9,7 +9,7 @@ app.get('/interview', (req, res) => {
 })
 
 app.get('/items', (req, res) => {
-  res.send(['Dwayne Draper', 'Johnathan Blank', 'Kevin Mongiello', 'Kyle Simpson', 'Kyle C Dodds']);
+  res.send(['Dwayne Draper', 'Johnathan Blank', 'Kevin Mongiello', 'Kyle Simpson', 'Kent C Dodds']);
 });
 
 const port = 3678;
