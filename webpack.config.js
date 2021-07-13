@@ -10,6 +10,13 @@ const config = {
   module: {
     rules: [
       {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          'css-loader'
+        ]
+      },
+      {
         test: /\.(js|jsx)$/,
         use: 'babel-loader',
         exclude: /node_modules/
@@ -20,7 +27,7 @@ const config = {
     extensions: [
       '.js',
       '.jsx'
-    ]
+    ],
   }
 };
 
